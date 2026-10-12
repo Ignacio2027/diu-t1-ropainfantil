@@ -36,7 +36,7 @@ El diseño utiliza marrón claro, azul, amarillo, turquesa, verde claro y un fon
 
 ## 4. Documentación
 
-La documentación completa del proyecto se encuentra en [`DOCUMENTACION.md`](DOCUMENTACION.md).
+La documentación completa del proyecto se encuentra en la documentacion.
 
 Incluye los objetivos del diseño, el análisis de usuarios, las personas, la competencia, las decisiones de diseño, el mapa de navegación, los wireframes y la guía de estilo.
 
@@ -56,4 +56,4 @@ El archivo contiene los wireframes y el diseño visual de las pantallas de MiniS
 
 ## 7. Autoría
 
-Proyecto realizado individualmente por **Ignacio Sedano Fiñana** para la asignatura de Diseño de Interfaces de Usuario (DIU).
+Proyecto realizado individualmente por **Ignacio Sedano Fiñana** 
