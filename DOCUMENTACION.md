@@ -109,51 +109,47 @@ Los wireframes sirven como base para desarrollar el prototipo de alta fidelidad 
 
 3.3. Guía de estilo Material Design 3
 
-La aplicación MiniStyle utiliza un diseño sencillo y colorido, pensado para una tienda de ropa infantil. Se utilizan colores suaves y alegres, imágenes de niños y prendas de ropa, y botones fáciles de encontrar.
+### 3.3. Guía de estilo Material Design 3
 
-Colores principales
+La aplicación **MiniStyle** utiliza un diseño colorido y sencillo, pensado para una tienda de ropa infantil. Todas las pantallas mantienen un estilo parecido para que la aplicación sea fácil de entender y utilizar.
 
-Marrón claro (#AD8060): se utiliza en los encabezados de las pantallas.
+**Colores utilizados**
 
-Azul (#0787F9): se utiliza en botones, títulos y elementos destacados.
+- **Marrón claro (`#AD8060`):** se utiliza en los encabezados de las pantallas.
+- **Azul (`#0787F9`):** se utiliza en botones y elementos destacados.
+- **Amarillo claro (`#FFE6A3`):** se utiliza en los fondos de las secciones de categorías, rebajas, productos y algunos botones.
+- **Turquesa claro (`#A8F0E8`):** se utiliza en botones y elementos de la pantalla de selección de producto.
+- **Verde claro (`#A5F2C0`):** se utiliza como fondo de la pantalla de selección de producto.
+- **Rosa muy claro (`#FFF8F6`):** se utiliza como fondo general de la aplicación.
+- **Blanco (`#FFFFFF`):** se utiliza como fondo de las imágenes de los productos y de algunas pantallas.
 
-Amarillo claro (#FFE6A3): se utiliza como fondo de la sección de categorías.
+**Tipografía**
 
-Turquesa claro (#A8F0E8): se utiliza como fondo de las secciones de rebajas y productos.
+Se utilizan letras sencillas para mostrar los títulos, los nombres de los productos, los precios y los textos de los botones. Los títulos de las secciones aparecen más destacados que los textos secundarios.
 
-Verde claro (#A5F2C0): se utiliza como fondo de la pantalla de selección del producto.
+**Organización de las pantallas**
 
-Rosa muy claro (#FFF8F6): se utiliza como fondo general de la aplicación.
+La aplicación cuenta con las siguientes pantallas:
 
-Blanco (#FFFFFF): se utiliza para destacar las imágenes de los productos.
+- **Inicio:** muestra las categorías de ropa y una selección de productos.
+- **Página de niño o niña:** muestra las rebajas y los productos disponibles.
+- **Selección de producto:** muestra la imagen de la prenda, las tallas, el precio y las opciones para añadir al carrito o comprar.
+- **Carrito:** muestra los productos seleccionados y permite revisar la compra.
+- **Página de compra:** contiene los campos para introducir los datos necesarios para realizar el pedido.
+- **Confirmación:** muestra un símbolo de confirmación y permite confirmar el pedido.
+- **Favoritos:** permitirá consultar los productos guardados, manteniendo los mismos colores y el estilo visual del resto de la aplicación.
 
-Tipografía
+**Botones y elementos**
 
-Se utiliza una letra sencilla y fácil de leer. Los títulos, como «CATEGORÍAS», «PRODUCTOS» y «SELECCIÓN DE PRODUCTO», aparecen en un tamaño más grande que los textos secundarios.
+Los botones utilizan principalmente azul, amarillo y turquesa para destacar las acciones. Las tallas se muestran en una fila de botones y las imágenes ayudan a identificar rápidamente las prendas. También se utiliza una barra de búsqueda para facilitar la búsqueda de productos.
 
-Distribución de las pantallas
+**Imágenes**
 
-Las pantallas se organizan en distintas secciones para que el usuario encuentre fácilmente lo que busca:
+Se utilizan fotografías de ropa infantil y de niños y niñas para mostrar las categorías y los productos de la tienda. Las imágenes tienen un papel importante porque permiten al usuario ver las prendas antes de seleccionarlas.
 
-Inicio: muestra las categorías y algunos productos.
+**Distribución y facilidad de uso**
 
-Página de niño o niña: muestra las rebajas y los productos disponibles.
-
-Selección de producto: muestra la imagen de la prenda, las tallas disponibles, el precio y los botones para añadir al carrito o comprar.
-
-Carrito,pagina de compra y comfirmacion de la compra
-
-Botones y elementos
-
-Los botones utilizan principalmente el azul y el turquesa para destacar las acciones. Las tallas se muestran mediante botones pequeños colocados en una fila. También se utiliza una barra de búsqueda para encontrar productos.
-
-Imágenes
-
-Se utilizan imágenes de ropa infantil y de niños y niñas para identificar las categorías y mostrar los productos de la tienda.
-
-Adaptación del diseño
-
-Se mantiene una distribución parecida en todas las pantallas para que la aplicación sea fácil de entender y utilizar. Los colores, las imágenes y los botones ayudan a diferenciar cada sección.
+Las pantallas mantienen una distribución parecida, con encabezados, secciones y botones fáciles de localizar. De esta forma, el usuario puede navegar por la tienda, elegir productos, revisar el carrito y completar la compra de una manera sencilla.
 
 ### 3.4 Prototipo de alta fidelidad
 
