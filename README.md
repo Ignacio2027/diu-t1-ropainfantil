@@ -1,5 +1,5 @@
 # diu-t1-ropainfantil
-# MiniStyle 👕
+# MiniStyle 
 ### Tienda online de ropa infantil
 
 **Proyecto:** DIU · Tarea 1 · Diseño de Interfaces de Usuario  
