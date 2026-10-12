@@ -2,7 +2,7 @@
 # MiniStyle 
 ### Tienda online de ropa infantil
 
-**Proyecto:** DIU · Tarea 1 · Diseño de Interfaces de Usuario  
+**Proyecto:**Tarea 1 · Documentación y prototipo Material Design 3 en Figma: app de tienda de ropa infantil 
 **Nombre:** Ignacio Sedano Fiñana
 
 
