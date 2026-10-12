@@ -72,9 +72,62 @@ Que cosas hace mal:Puede resultar algo cargada por la cantidad de productos y op
 Que llevo: Mostrar la información importante de forma clara y sencilla.
 ### 2.4 Insights y hallazgos clave
 1. Los usuarios tienen dudas con las tallas → añadir una guía de tallas dentro del detalle del producto.
+2. Los usuarios tienen poco tiempo para comprar  hacer que la navegación y el proceso de compra sean rápidos y sencillos.
+3. Los usuarios compran principalmente desde el móvil utilizar botones grandes y fáciles de pulsar.
+4. Los usuarios pueden tener problemas para encontrar un producto añadir un buscador y filtros por edad, talla, color y precio.
+## 3. Diseño de la interfaz
 
-2. Los usuarios tienen poco tiempo para comprar → hacer que la navegación y el proceso de compra sean rápidos y sencillos.
+### 3.1 Mapa de navegación
 
-3. Los usuarios compran principalmente desde el móvil → utilizar botones grandes y fáciles de pulsar.
+La aplicación MiniStyle permite acceder desde la pantalla de inicio a las categorías de ropa infantil. Después, el usuario puede seleccionar un producto, elegir una talla, añadirlo al carrito y continuar con la compra hasta llegar a la confirmación.
 
-4. Los usuarios pueden tener problemas para encontrar un producto → añadir un buscador y filtros por edad, talla, color y precio.
+```mermaid
+flowchart TD
+    A[Inicio] --> B[Categoría niño o niña]
+    B --> C[Selección de producto]
+    C -->|Añadir al carrito| D[Carrito]
+    C -->|Comprar ahora| E[Página de compra]
+    D --> E
+    E -->|Confirmar| F[Confirmación]
+```
+
+### 3.2 Wireframes
+
+Se han realizado wireframes de las pantallas principales de MiniStyle para organizar los elementos antes de crear el diseño definitivo.
+
+- **Inicio:** muestra las categorías infantiles y una selección de productos.
+- **Página de niño o niña:** permite consultar las prendas de la categoría elegida.
+- **Selección de producto:** muestra la prenda, las tallas disponibles y las opciones para añadirla al carrito o comprarla.
+- **Carrito:** presenta los productos seleccionados, permite eliminarlos y muestra el importe total.
+- **Página de compra:** contiene los campos para introducir los datos necesarios para continuar con el pedido.
+- **Confirmación:** muestra el resultado final del proceso de compra.
+git remote -v
+Los wireframes sirven como base para desarrollar el prototipo de alta fidelidad utilizando Material Design 3.
+![alt text](image.png)
+
+### 3.3 Guía de estilo Material Design 3
+
+La aplicación MiniStyle utiliza Material Design 3 para que todas las pantallas tengan un diseño parecido y fácil de utilizar.
+
+**Colores:** se utiliza el naranja rojizo como color principal, acompañado de rosa apagado, amarillo mostaza y tonos grises. Se han preparado un esquema claro y otro oscuro.
+
+**Tipografía:** se utiliza Roboto, con diferentes tamaños para títulos, subtítulos y textos.
+
+**Rejilla y espaciado:**
+- 4 columnas.
+- Márgenes de 16 dp.
+- Espaciado en múltiplos de 8 dp.
+- Áreas táctiles de al menos 48 × 48 dp.
+- Tamaño de las pantallas: 360 × 800 px.
+
+**Componentes:** barras de navegación, tarjetas de productos, botones, campos de texto, mensajes de error y una guía de tallas desplegable.
+
+Los colores se guardan en `diseno/estilos.json`. Se comprobará el contraste entre los colores y sus textos para cumplir el mínimo de 4,5:1 de WCAG AA.
+
+### 3.4 Prototipo de alta fidelidad
+
+El prototipo de MiniStyle se desarrollará en Figma a partir de los wireframes existentes. Se mantendrá el recorrido desde la selección de productos hasta la confirmación de compra.
+
+En la versión final se incorporarán componentes de Material Design 3, componentes propios con variantes y Auto Layout, navegación entre pantallas, una ventana inferior superpuesta, animaciones de transición, un estado de error y pantallas en modo oscuro.
+
+El prototipo deberá incluir al menos siete pantallas de 360 × 800 px y la palabra del día indicada en clase.
