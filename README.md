@@ -5,19 +5,6 @@
 **Proyecto:** DIU · Tarea 1 · Diseño de Interfaces de Usuario  
 **Nombre:** Ignacio Sedano Fiñana
 
----
-
-## Índice
-
-1. [Descripción del proyecto](#1-descripción-del-proyecto)
-2. [Objetivos](#2-objetivos)
-3. [Diseño y pantallas](#3-diseño-y-pantallas)
-4. [Documentación](#4-documentación)
-5. [Prototipo de Figma](#5-prototipo-de-figma)
-6. [Tecnologías y herramientas](#6-tecnologías-y-herramientas)
-7. [Autoría](#7-autoría)
-
----
 
 ## 1. Descripción del proyecto
 
