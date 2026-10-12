@@ -107,22 +107,53 @@ Los wireframes sirven como base para desarrollar el prototipo de alta fidelidad 
 
 ### 3.3 Guía de estilo Material Design 3
 
-La aplicación MiniStyle utiliza Material Design 3 para que todas las pantallas tengan un diseño parecido y fácil de utilizar.
+3.3. Guía de estilo Material Design 3
 
-**Colores:** se utiliza el naranja rojizo como color principal, acompañado de rosa apagado, amarillo mostaza y tonos grises. Se han preparado un esquema claro y otro oscuro.
+La aplicación MiniStyle utiliza un diseño sencillo y colorido, pensado para una tienda de ropa infantil. Se utilizan colores suaves y alegres, imágenes de niños y prendas de ropa, y botones fáciles de encontrar.
 
-**Tipografía:** se utiliza Roboto, con diferentes tamaños para títulos, subtítulos y textos.
+Colores principales
 
-**Rejilla y espaciado:**
-- 4 columnas.
-- Márgenes de 16 dp.
-- Espaciado en múltiplos de 8 dp.
-- Áreas táctiles de al menos 48 × 48 dp.
-- Tamaño de las pantallas: 360 × 800 px.
+Marrón claro (#AD8060): se utiliza en los encabezados de las pantallas.
 
-**Componentes:** barras de navegación, tarjetas de productos, botones, campos de texto, mensajes de error y una guía de tallas desplegable.
+Azul (#0787F9): se utiliza en botones, títulos y elementos destacados.
 
-Los colores se guardan en `diseno/estilos.json`. Se comprobará el contraste entre los colores y sus textos para cumplir el mínimo de 4,5:1 de WCAG AA.
+Amarillo claro (#FFE6A3): se utiliza como fondo de la sección de categorías.
+
+Turquesa claro (#A8F0E8): se utiliza como fondo de las secciones de rebajas y productos.
+
+Verde claro (#A5F2C0): se utiliza como fondo de la pantalla de selección del producto.
+
+Rosa muy claro (#FFF8F6): se utiliza como fondo general de la aplicación.
+
+Blanco (#FFFFFF): se utiliza para destacar las imágenes de los productos.
+
+Tipografía
+
+Se utiliza una letra sencilla y fácil de leer. Los títulos, como «CATEGORÍAS», «PRODUCTOS» y «SELECCIÓN DE PRODUCTO», aparecen en un tamaño más grande que los textos secundarios.
+
+Distribución de las pantallas
+
+Las pantallas se organizan en distintas secciones para que el usuario encuentre fácilmente lo que busca:
+
+Inicio: muestra las categorías y algunos productos.
+
+Página de niño o niña: muestra las rebajas y los productos disponibles.
+
+Selección de producto: muestra la imagen de la prenda, las tallas disponibles, el precio y los botones para añadir al carrito o comprar.
+
+Carrito,pagina de compra y comfirmacion de la compra
+
+Botones y elementos
+
+Los botones utilizan principalmente el azul y el turquesa para destacar las acciones. Las tallas se muestran mediante botones pequeños colocados en una fila. También se utiliza una barra de búsqueda para encontrar productos.
+
+Imágenes
+
+Se utilizan imágenes de ropa infantil y de niños y niñas para identificar las categorías y mostrar los productos de la tienda.
+
+Adaptación del diseño
+
+Se mantiene una distribución parecida en todas las pantallas para que la aplicación sea fácil de entender y utilizar. Los colores, las imágenes y los botones ayudan a diferenciar cada sección.
 
 ### 3.4 Prototipo de alta fidelidad
 
