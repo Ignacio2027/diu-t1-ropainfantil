@@ -158,3 +158,19 @@ El prototipo de MiniStyle se desarrollará en Figma a partir de los wireframes e
 En la versión final se incorporarán componentes de Material Design 3, componentes propios con variantes y Auto Layout, navegación entre pantallas, una ventana inferior superpuesta, animaciones de transición, un estado de error y pantallas en modo oscuro.
 
 El prototipo deberá incluir al menos siete pantallas de 360 × 800 px y la palabra del día indicada en clase.
+## 5. Entrega y documentación final
+
+### 5.1 Justificación del diseño propuesto
+
+El diseño de MiniStyle está pensado para que comprar ropa infantil sea sencillo y cómodo. Se utilizan colores alegres, imágenes de prendas y botones fáciles de identificar. Las pantallas mantienen una distribución parecida para que el usuario pueda encontrar los productos, seleccionar una talla, revisar el carrito y completar la compra sin complicaciones.
+
+También se incluye una pantalla de favoritos para guardar prendas y consultarlas más tarde. El diseño busca que la aplicación sea clara, visual y fácil de utilizar.
+
+### 5.2 Recomendaciones y pasos a seguir
+
+Como mejoras futuras, se recomienda probar la aplicación con más usuarios para conocer su opinión y detectar posibles problemas. También se podrían añadir más filtros para buscar ropa por edad, talla, precio y categoría.
+
+Otros pasos recomendados son comprobar que todos los botones funcionan correctamente, revisar la legibilidad de los textos y verificar que los colores tengan suficiente contraste. Por último, se deben mantener actualizados el prototipo de Figma, las capturas y la documentación del proyecto.
+
+## 6. Referencias bibliográficas  
+Palabra del dia: **29**
