@@ -1,0 +1,99 @@
+{
+  "propietario": "Ignacio2027",
+  "tienda": "MiniStyle",
+  "colorSemilla": "#B83B12",
+  "esquema": {
+    "claro": {
+      "primary": "#B83B12",
+      "onPrimary": "#FFFFFF",
+      "primaryContainer": "#FFDBCE",
+      "onPrimaryContainer": "#3D0900",
+      "secondary": "#B98778",
+      "onSecondary": "#FFFFFF",
+      "tertiary": "#A58D3F",
+      "onTertiary": "#FFFFFF",
+      "surface": "#FFF8F6",
+      "onSurface": "#231A17",
+      "error": "#FF514B",
+      "onError": "#FFFFFF"
+    },
+    "oscuro": {
+      "primary": "#FFB59B",
+      "onPrimary": "#641F00",
+      "primaryContainer": "#8F2D08",
+      "onPrimaryContainer": "#FFDBCE",
+      "secondary": "#E5B5A5",
+      "onSecondary": "#442A22",
+      "tertiary": "#E4C66F",
+      "onTertiary": "#392F00",
+      "surface": "#1C100D",
+      "onSurface": "#F5DED7",
+      "error": "#FFB4AB",
+      "onError": "#690005"
+    }
+  },
+  "tipografia": {
+    "familia": "Roboto",
+    "roles": {
+      "headlineSmall": {
+        "tamano": 24,
+        "interlineado": 32,
+        "peso": 400
+      },
+      "titleLarge": {
+        "tamano": 22,
+        "interlineado": 28,
+        "peso": 400
+      },
+      "titleMedium": {
+        "tamano": 16,
+        "interlineado": 24,
+        "peso": 500
+      },
+      "bodyLarge": {
+        "tamano": 16,
+        "interlineado": 24,
+        "peso": 400
+      },
+      "labelLarge": {
+        "tamano": 14,
+        "interlineado": 20,
+        "peso": 500
+      }
+    }
+  },
+  "espaciado": {
+    "base": 8,
+    "margenPantalla": 16,
+    "columnas": 4,
+    "areaTactilMinima": 48
+  },
+  "componentes": [
+    "Top app bar",
+    "Navigation bar",
+    "Card",
+    "Filter chip",
+    "Button",
+    "Text field",
+    "Snackbar",
+    "Bottom sheet"
+  ],
+  "componentesPropios": [
+    {
+      "nombre": "TarjetaProducto",
+      "variantes": [
+        "normal",
+        "favorito",
+        "agotado"
+      ]
+    },
+    {
+      "nombre": "SelectorTalla",
+      "variantes": [
+        "disponible",
+        "seleccionada",
+        "sin stock"
+      ]
+    }
+  ]
+}
